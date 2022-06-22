@@ -1,17 +1,17 @@
-var sign = prompt("Operator: ")
-var num1 = parseInt(prompt("1st Number: "))
-var num2 = parseInt(prompt("2nd Number: "))
+var sign = prompt("Please Enter the operator: (e.g +,-,*,/) ")
+var num1 = parseInt(prompt("Enter the First Number: "))
+var num2 = parseInt(prompt("Enter the Second Number: "))
 
 if(sign == "+")
 {
-    console.log(num1 + num2)
+    alert("The Result is " + (num1 + num2))
 } else if(sign == "-")
 {
-    console.log(num1 - num2)
+   alert("The Result is " + (num1 - num2))
 } else  if(sign == "*")
 {
-    console.log(num1 * num2)  
+    alert("The Result is " +  (num1 * num2))  
 } else  if(sign == "/")
 {
-    console.log(num1/ num2)   
+    alert("The Result is " + (num1/ num2))   
 }
